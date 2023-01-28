@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.section-3-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90rem;
+}
+
+.column-box {
+  padding: 2.4rem 3.6rem;
+  height: 100%;
+  width: 100%;
+}
+
+.column-box:first-child {
+  border-radius: 1rem 0 0 1rem;
+}
+
+.column-box:last-child {
+  border-radius: 0 1rem 1rem 0;
+}
+
+.sedans-box {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs-box {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-box {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.column-icon {
+  margin: 1.2rem 0 3.6rem 0;
+}
+
+.column-header {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3.2rem;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 3.6rem;
+}
+
+.column-text {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 6.4rem;
+}
+
+.btn {
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding: 1.8rem 3.2rem;
+  border-radius: 10rem;
+  margin-bottom: 1.8rem;
+}
+
+.sedans-btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs-btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-btn {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  box-shadow: 0 0 0 2px #fff;
+}

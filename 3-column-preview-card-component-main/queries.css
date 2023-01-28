@@ -1,0 +1,22 @@
+@media (max-width: 57.5em) {
+  body {
+    height: 200vh;
+  }
+
+  .section-3-columns {
+    grid-template-columns: 1fr;
+    width: 30rem;
+  }
+
+  .column-box {
+    padding: 2.4rem 3rem;
+  }
+
+  .column-box:first-child {
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .column-box:last-child {
+    border-radius: 0 0 1rem 1rem;
+  }
+}
